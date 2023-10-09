@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials, messaging, firestore
 
 # Initialize Firebase Admin SDK with your service account JSON file
-cred = credentials.Certificate("quotify-30a6c-firebase-adminsdk-nm88g-6862fb19f7.json")
+cred = credentials.Certificate("Enter Your Firebase Key.JSON file")
 firebase_admin.initialize_app(cred)
 
 
